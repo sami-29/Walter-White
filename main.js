@@ -36,7 +36,7 @@ let WW;
 const loader = new GLTFLoader();
 
 loader.load(
-  "/assets/walter_white_3d/scene.gltf",
+  "/assets/scene.gltf",
   function (gltf) {
     scene.add(gltf.scene);
     WW = gltf.scene;
